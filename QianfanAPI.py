@@ -24,8 +24,8 @@ class QianfanAPI:
             resp: qianfan.ChatCompletion()的响应对象。
             """
         # 设置环境变量
-        os.environ["QIANFAN_AK"] = "AsCXMx7DdStZ7e4aGRUJVlDU"
-        os.environ["QIANFAN_SK"] = "mVjaTtP3rrEFL2HxirasowZjjByI6zLW"
+        os.environ["QIANFAN_AK"] = "xxxx"
+        os.environ["QIANFAN_SK"] = "xxx"
 
         # 检测文件编码
         with open(file_path, 'rb') as f:
@@ -111,8 +111,8 @@ class QianfanAPI:
             resp: qianfan.ChatCompletion()的响应对象。
             """
         # 设置环境变量
-        os.environ["QIANFAN_AK"] = "AsCXMx7DdStZ7e4aGRUJVlDU"
-        os.environ["QIANFAN_SK"] = "mVjaTtP3rrEFL2HxirasowZjjByI6zLW"
+        os.environ["QIANFAN_AK"] = "xxx"
+        os.environ["QIANFAN_SK"] = "xxx"
 
 
         data_placeholder = f"""
@@ -213,8 +213,8 @@ class QianfanAPI:
     #         resp: qianfan.ChatCompletion()的响应对象。
     #         """
     #     # 设置环境变量
-    #     os.environ["QIANFAN_AK"] = "AsCXMx7DdStZ7e4aGRUJVlDU"
-    #     os.environ["QIANFAN_SK"] = "mVjaTtP3rrEFL2HxirasowZjjByI6zLW"
+    #     os.environ["QIANFAN_AK"] = "xxx"
+    #     os.environ["QIANFAN_SK"] = "xxxx"
     #
     #     data_placeholder = f"""
     #                         任务：技能匹配
@@ -351,11 +351,11 @@ class QianfanAPI:
             resp: qianfan.ChatCompletion()的响应对象。
             """
         # 设置环境变量
-        # os.environ["QIANFAN_AK"] = "cq0dzKva6CPvxE3xBnWHW3Ux"
-        # os.environ["QIANFAN_SK"] = "wQ2XF4MzonPDpBAPExOTPkREMRIXzL64"
+        # os.environ["QIANFAN_AK"] = "xxx"
+        # os.environ["QIANFAN_SK"] = "x"
 
-        os.environ["QIANFAN_AK"] = "AsCXMx7DdStZ7e4aGRUJVlDU"
-        os.environ["QIANFAN_SK"] = "mVjaTtP3rrEFL2HxirasowZjjByI6zLW"
+        os.environ["QIANFAN_AK"] = "xx"
+        os.environ["QIANFAN_SK"] = "xxx"
 
         data_placeholder = f"""
                             任务：简历与职位要求技能匹配
